@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+
+body {
+  text-align: center;
+  background-image: url(https://thewrightgroupnow.com/wp-content/uploads/How-Long-is-a-Concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #000000;
+  font-family: "New Rocker", cursive;
+  text-shadow: 5px 5px #ffffff;
+  letter-spacing: 10px;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #000000;
+  font-size: 3rem;
+  font-family: "New Rocker", cursive;
+  line-height: 2;
+  font-weight: 100;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  color: red;
+}
+
+.w {
+  background-image: url(img/crash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.a {
+  background-image: url(img/bombo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.s {
+  background-image: url(img/redoblante.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.d {
+  background-image: url(img/tom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.j {
+  background-image: url(img/tom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.k {
+  background-image: url(img/tom2.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.l {
+  background-image: url(img/tom3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.pressed {
+  box-shadow: 0 10px 10px 0 #000000;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 2rem;
+    color: #dbedf3;
+    font-family: "New Rocker", cursive;
+    text-shadow: 3px 0 #000000;
+    letter-spacing: 10px;
+  }
+}
